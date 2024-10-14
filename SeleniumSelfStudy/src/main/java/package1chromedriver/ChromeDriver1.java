@@ -8,6 +8,8 @@ public class ChromeDriver1 {
 		System.setProperty("webdriver.chrome.driver","C:\\ChromeDrivers\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://google.com");
+		//Am adding a new statement
+		driver.close();
 		
 
 	}
